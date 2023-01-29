@@ -1,0 +1,15 @@
+server:
+  port: 10011
+
+spring:
+  application:
+    name: dataStructure
+  datasource:
+    url: 119.29.187.18
+    username: root
+    password: tfx12138
+
+
+
+  profiles:
+    active: dev 
