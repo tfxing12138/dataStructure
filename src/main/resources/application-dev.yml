@@ -11,4 +11,5 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   mapper-locations: classpath:com/tfxing/dataStructure/dao/*.xml
-
+  configuration:
+    map-underscore-to-camel-case: true
