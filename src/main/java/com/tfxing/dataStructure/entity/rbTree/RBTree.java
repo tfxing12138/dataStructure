@@ -37,7 +37,7 @@ public class RBTree<T> {
                 this.root = currentNode;
             } else {
                 TreeNode<T> parentNode = currentNode.getParent();
-                if(currentNode.compare(treeNode) < 0) {
+                if(parentNode.compare(currentNode) > 0) {
                     parentNode.setLeft(currentNode);
                 } else {
                     parentNode.setRight(currentNode);
